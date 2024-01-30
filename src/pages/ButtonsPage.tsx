@@ -1,5 +1,6 @@
 import BlueButton from "../components/BlueButton";
 import RedButton from "../components/RedButton";
+import ResetButton from "../components/ResetButton";
 
 export default function ButtonsPage() {
   return (
@@ -14,6 +15,7 @@ export default function ButtonsPage() {
         <RedButton />
         <RedButton />
       </div>
+      <ResetButton />
     </div>
   );
 }
