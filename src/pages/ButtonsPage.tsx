@@ -4,7 +4,7 @@ import ResetButton from "../components/ResetButton";
 
 export default function ButtonsPage() {
   return (
-    <div className="">
+    <div className="w-full justify-center">
       <BlueButton />
 
       <div>
