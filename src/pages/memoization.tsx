@@ -36,8 +36,12 @@ export default function MemoizePage() {
 
   return (
     <div>
-      <label>Fibonacci Sequence: Enter Value</label>
+      <div className="text-gray-900 text-4xl">
+        Memoization: Fibonacci Sequence
+      </div>
+      <label>Enter Value</label>
       <input
+        className="bg-slate-400 w-10 m-2"
         type="number"
         value={value}
         onChange={(e) => {
@@ -46,7 +50,7 @@ export default function MemoizePage() {
         }}
       />
       <div>
-        <p>{memoizedFibonacciSequence(value)}</p>
+        <p>Result: {memoizedFibonacciSequence(value)}</p>
       </div>
     </div>
   );
